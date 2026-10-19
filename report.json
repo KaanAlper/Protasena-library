@@ -1,0 +1,841 @@
+{
+  "upstream": "KiCad libraries 9.0.9.1 (kicad-symbols, kicad-footprints)",
+  "counts": {
+    "symbol_libraries": 223,
+    "symbols": 22583,
+    "derived_symbols": 12127,
+    "devices": 22583,
+    "power_devices": 102,
+    "mapped_names": 20,
+    "disambiguated": 106,
+    "units": 27973,
+    "pins": 804008,
+    "footprint_libraries": 155,
+    "footprints": 15415,
+    "packages": 15415,
+    "pads": 385640,
+    "devices_with_packages": 20382,
+    "package_links": 73661,
+    "footprint_field_links": 17842,
+    "filter_links": 55819,
+    "filter_capped_devices": 177,
+    "alternates_dropped": 1344910,
+    "kicad_unknown_tokens": 512
+  },
+  "unmapped_libraries": [],
+  "unused_map_devices": [],
+  "renamed": [
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4001",
+      "name": "4001_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4002",
+      "name": "4002_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4009",
+      "name": "4009_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4010",
+      "name": "4010_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "40106",
+      "name": "40106_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4011",
+      "name": "4011_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4012",
+      "name": "4012_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4013",
+      "name": "4013_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4016",
+      "name": "4016_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4017",
+      "name": "4017_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4020",
+      "name": "4020_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4021",
+      "name": "4021_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4022",
+      "name": "4022_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4023",
+      "name": "4023_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4025",
+      "name": "4025_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4027",
+      "name": "4027_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4028",
+      "name": "4028_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4029",
+      "name": "4029_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4040",
+      "name": "4040_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4046",
+      "name": "4046_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4049",
+      "name": "4049_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4050",
+      "name": "4050_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4051",
+      "name": "4051_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4052",
+      "name": "4052_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4053",
+      "name": "4053_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4060",
+      "name": "4060_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4066",
+      "name": "4066_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4069",
+      "name": "4069_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4070",
+      "name": "4070_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4071",
+      "name": "4071_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4072",
+      "name": "4072_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4073",
+      "name": "4073_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4075",
+      "name": "4075_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4077",
+      "name": "4077_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4081",
+      "name": "4081_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4504",
+      "name": "4504_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4510",
+      "name": "4510_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4518",
+      "name": "4518_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4520",
+      "name": "4520_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4528",
+      "name": "4528_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4538",
+      "name": "4538_4xxx_IEEE"
+    },
+    {
+      "lib": "4xxx_IEEE",
+      "symbol": "4543",
+      "name": "4543_4xxx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "7400",
+      "name": "7400_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "7402",
+      "name": "7402_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "7454",
+      "name": "7454_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74HC237",
+      "name": "74HC237_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74HC238",
+      "name": "74HC238_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS133",
+      "name": "74LS133_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS137",
+      "name": "74LS137_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS138",
+      "name": "74LS138_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS139",
+      "name": "74LS139_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS15",
+      "name": "74LS15_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS160",
+      "name": "74LS160_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS161",
+      "name": "74LS161_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS162",
+      "name": "74LS162_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS163",
+      "name": "74LS163_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS168",
+      "name": "74LS168_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS169",
+      "name": "74LS169_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS170",
+      "name": "74LS170_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS190",
+      "name": "74LS190_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS191",
+      "name": "74LS191_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS192",
+      "name": "74LS192_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS193",
+      "name": "74LS193_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS194",
+      "name": "74LS194_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS195",
+      "name": "74LS195_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS197",
+      "name": "74LS197_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS240",
+      "name": "74LS240_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS241",
+      "name": "74LS241_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS242",
+      "name": "74LS242_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS243",
+      "name": "74LS243_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS244",
+      "name": "74LS244_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS245",
+      "name": "74LS245_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS257",
+      "name": "74LS257_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS258",
+      "name": "74LS258_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS280",
+      "name": "74LS280_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS283",
+      "name": "74LS283_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS290",
+      "name": "74LS290_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS295",
+      "name": "74LS295_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS298",
+      "name": "74LS298_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS299",
+      "name": "74LS299_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS323",
+      "name": "74LS323_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS348",
+      "name": "74LS348_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS352",
+      "name": "74LS352_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS353",
+      "name": "74LS353_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS365",
+      "name": "74LS365_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS366",
+      "name": "74LS366_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS367",
+      "name": "74LS367_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS368",
+      "name": "74LS368_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS386",
+      "name": "74LS386_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS390",
+      "name": "74LS390_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS395",
+      "name": "74LS395_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS398",
+      "name": "74LS398_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS399",
+      "name": "74LS399_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS49",
+      "name": "74LS49_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS540",
+      "name": "74LS540_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS541",
+      "name": "74LS541_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS55",
+      "name": "74LS55_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS590",
+      "name": "74LS590_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS595",
+      "name": "74LS595_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS596",
+      "name": "74LS596_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS670",
+      "name": "74LS670_74xx_IEEE"
+    },
+    {
+      "lib": "74xx_IEEE",
+      "symbol": "74LS688",
+      "name": "74LS688_74xx_IEEE"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Battery",
+      "name": "BATTERY"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Buzzer",
+      "name": "BUZZER"
+    },
+    {
+      "lib": "Device",
+      "symbol": "C",
+      "name": "CAP"
+    },
+    {
+      "lib": "Device",
+      "symbol": "C_Polarized",
+      "name": "CAP-ELEC"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Crystal",
+      "name": "CRYSTAL"
+    },
+    {
+      "lib": "Device",
+      "symbol": "D",
+      "name": "DIODE"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Fuse",
+      "name": "FUSE"
+    },
+    {
+      "lib": "Device",
+      "symbol": "L",
+      "name": "INDUCTOR"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Lamp",
+      "name": "LAMP"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Q_NPN",
+      "name": "NPN"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Q_PNP",
+      "name": "PNP"
+    },
+    {
+      "lib": "Device",
+      "symbol": "R",
+      "name": "RES"
+    },
+    {
+      "lib": "Device",
+      "symbol": "Speaker",
+      "name": "SPEAKER"
+    },
+    {
+      "lib": "Simulation_SPICE",
+      "symbol": "NPN",
+      "name": "NPN_Simulation_SPICE"
+    },
+    {
+      "lib": "Simulation_SPICE",
+      "symbol": "PNP",
+      "name": "PNP_Simulation_SPICE"
+    },
+    {
+      "lib": "Simulation_SPICE",
+      "symbol": "SWITCH",
+      "name": "SWITCH_Simulation_SPICE"
+    },
+    {
+      "lib": "Switch",
+      "symbol": "SW_Push",
+      "name": "BUTTON"
+    },
+    {
+      "lib": "Switch",
+      "symbol": "SW_SPST",
+      "name": "SWITCH"
+    },
+    {
+      "lib": "power",
+      "symbol": "GND",
+      "name": "GROUND"
+    },
+    {
+      "lib": "power",
+      "symbol": "VCC",
+      "name": "POWER"
+    },
+    {
+      "lib": "power",
+      "symbol": "VDC",
+      "name": "VDC_power"
+    }
+  ],
+  "footprint_links_not_found": [
+    {
+      "lib": "Amplifier_Operational",
+      "symbol": "THS4226DGQ",
+      "footprint": "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm"
+    },
+    {
+      "lib": "Audio",
+      "symbol": "TPA5050",
+      "footprint": "Package_DFN_QFN:Texas_S-PVQFN-N16_EP2.7x2.7mm_ThermalVias"
+    },
+    {
+      "lib": "Battery_Management",
+      "symbol": "BQ24090DGQ",
+      "footprint": "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias"
+    },
+    {
+      "lib": "Converter_DCDC",
+      "symbol": "TPS43060RTE",
+      "footprint": "Package_DFN_QFN:Texas_S-PWQFN-N16_EP1.2x0.8mm_ThermalVias"
+    },
+    {
+      "lib": "Converter_DCDC",
+      "symbol": "TPS54240DGQ",
+      "footprint": "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias"
+    },
+    {
+      "lib": "Driver_Motor",
+      "symbol": "LMD18200",
+      "footprint": "Package_TO_SOT_THT:TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical"
+    },
+    {
+      "lib": "Interface_USB",
+      "symbol": "CP2102N-Axx-xQFN20",
+      "footprint": "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+    },
+    {
+      "lib": "MCU_Module",
+      "symbol": "CHIP",
+      "footprint": "Module:MODULE_NEXTTHINGCO_CHIP"
+    },
+    {
+      "lib": "MCU_Module",
+      "symbol": "CHIP-PRO",
+      "footprint": "Module:MODULE_NEXTTHINGCO_CHIPPRO"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161-RC",
+      "footprint": "Package_SO:SOIC-28W_8.7x18.25mm_P1.27mm"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161-TC",
+      "footprint": "Package_SO:TSOP-28_11.8x8mm_P0.55mm"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161B-RC",
+      "footprint": "Package_SO:SOIC-28W_8.7x18.25mm_P1.27mm"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161B-RC-2.5",
+      "footprint": "Package_SO:SOIC-28W_8.7x18.25mm_P1.27mm"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161B-TC",
+      "footprint": "Package_SO:TSOP-28_11.8x8mm_P0.55mm"
+    },
+    {
+      "lib": "Memory_Flash",
+      "symbol": "AT45DB161B-TC-2.5",
+      "footprint": "Package_SO:TSOP-28_11.8x8mm_P0.55mm"
+    },
+    {
+      "lib": "Memory_NVRAM",
+      "symbol": "MB85RS2MTAPNF",
+      "footprint": "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "lib": "Power_Management",
+      "symbol": "SN6507DGQ",
+      "footprint": "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm"
+    },
+    {
+      "lib": "RF_Bluetooth",
+      "symbol": "BM78SPPS5MC2",
+      "footprint": "RF_Module:BM78SPPS5XC2"
+    },
+    {
+      "lib": "RF_Bluetooth",
+      "symbol": "BM78SPPS5NC2",
+      "footprint": "RF_Module:BM78SPPS5XC2"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5H0265RCTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220-5L"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5H0265RCYDTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220-5L_Forming"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5H0280RYDTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220F-4L_Forming"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5L0265RYDTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220F-4L_Forming"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5M0265RYDTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220F-4L_Forming"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "KA5M0280RYDTU",
+      "footprint": "Package_TO_SOT_THT:ONSemi_TO-220F-4L_Forming"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "LT8610AC-1",
+      "footprint": "Package_SO:LTC_MSOP-16-1EP_3x4mm_P0.5mm_EP2.15x3.26mm"
+    },
+    {
+      "lib": "Regulator_Switching",
+      "symbol": "MIC2207",
+      "footprint": "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.4mm"
+    },
+    {
+      "lib": "Sensor_Optical",
+      "symbol": "SFH2701",
+      "footprint": "LED_SMD:LED_1206_3216Metric_Castellated"
+    },
+    {
+      "lib": "Sensor_Temperature",
+      "symbol": "Si7050-A20",
+      "footprint": "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm"
+    },
+    {
+      "lib": "Sensor_Temperature",
+      "symbol": "Si7051-A20",
+      "footprint": "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm"
+    },
+    {
+      "lib": "Sensor_Temperature",
+      "symbol": "Si7053-A20",
+      "footprint": "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm"
+    },
+    {
+      "lib": "Sensor_Temperature",
+      "symbol": "Si7054-A20",
+      "footprint": "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm"
+    },
+    {
+      "lib": "Sensor_Temperature",
+      "symbol": "Si7055-A20",
+      "footprint": "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.65x2.55mm"
+    },
+    {
+      "lib": "Sensor_Touch",
+      "symbol": "CY8CMBR3108",
+      "footprint": "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
+    },
+    {
+      "lib": "Timer_RTC",
+      "symbol": "M41T62Q",
+      "footprint": "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
+    }
+  ],
+  "notes": {
+    "chamfered pad corners (drawn rounded)": 16,
+    "custom pads (anchor + outline on copper)": 2010,
+    "footprint 3D model references skipped": 14816,
+    "footprint zones skipped": 473,
+    "oval drills (smaller size kept)": 431,
+    "pad number repeated (renamed N#k)": 42299,
+    "pin alternates dropped (primary function kept)": 1344910,
+    "pin number repeated in a unit (renamed N#k)": 14,
+    "pin style marks drawn": 2460,
+    "pin type free → unspecified": 32,
+    "symbol text boxes (frame + centred text)": 30,
+    "trapezoid pads (drawn as rectangles)": 9
+  },
+  "kicad_unknown": {
+    "footprint/dimension": 5,
+    "pts/arc": 34,
+    "zone/placement": 473
+  },
+  "failures": []
+}

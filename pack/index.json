@@ -1,0 +1,2051 @@
+{
+  "format": "protasena-library",
+  "version": 1,
+  "libraries": [
+    {
+      "name": "4xxx",
+      "file": "symbols/4xxx.json",
+      "device_count": 51
+    },
+    {
+      "name": "4xxx_IEEE",
+      "file": "symbols/4xxx_IEEE.json",
+      "device_count": 99
+    },
+    {
+      "name": "74xGxx",
+      "file": "symbols/74xGxx.json",
+      "device_count": 174
+    },
+    {
+      "name": "74xx",
+      "file": "symbols/74xx.json",
+      "device_count": 277
+    },
+    {
+      "name": "74xx_IEEE",
+      "file": "symbols/74xx_IEEE.json",
+      "device_count": 185
+    },
+    {
+      "name": "Amplifier_Audio",
+      "file": "symbols/Amplifier_Audio.json",
+      "device_count": 106
+    },
+    {
+      "name": "Amplifier_Buffer",
+      "file": "symbols/Amplifier_Buffer.json",
+      "device_count": 11
+    },
+    {
+      "name": "Amplifier_Current",
+      "file": "symbols/Amplifier_Current.json",
+      "device_count": 150
+    },
+    {
+      "name": "Amplifier_Difference",
+      "file": "symbols/Amplifier_Difference.json",
+      "device_count": 18
+    },
+    {
+      "name": "Amplifier_Instrumentation",
+      "file": "symbols/Amplifier_Instrumentation.json",
+      "device_count": 42
+    },
+    {
+      "name": "Amplifier_Operational",
+      "file": "symbols/Amplifier_Operational.json",
+      "device_count": 421
+    },
+    {
+      "name": "Amplifier_Video",
+      "file": "symbols/Amplifier_Video.json",
+      "device_count": 3
+    },
+    {
+      "name": "Analog",
+      "file": "symbols/Analog.json",
+      "device_count": 22
+    },
+    {
+      "name": "Analog_ADC",
+      "file": "symbols/Analog_ADC.json",
+      "device_count": 190
+    },
+    {
+      "name": "Analog_DAC",
+      "file": "symbols/Analog_DAC.json",
+      "device_count": 156
+    },
+    {
+      "name": "Analog_Switch",
+      "file": "symbols/Analog_Switch.json",
+      "device_count": 165
+    },
+    {
+      "name": "Audio",
+      "file": "symbols/Audio.json",
+      "device_count": 118
+    },
+    {
+      "name": "Auxiliary_Items",
+      "file": "symbols/Auxiliary_Items.json",
+      "device_count": 2
+    },
+    {
+      "name": "Battery_Management",
+      "file": "symbols/Battery_Management.json",
+      "device_count": 153
+    },
+    {
+      "name": "Buffer",
+      "file": "symbols/Buffer.json",
+      "device_count": 2
+    },
+    {
+      "name": "CPLD_Altera",
+      "file": "symbols/CPLD_Altera.json",
+      "device_count": 26
+    },
+    {
+      "name": "CPLD_Microchip",
+      "file": "symbols/CPLD_Microchip.json",
+      "device_count": 8
+    },
+    {
+      "name": "CPLD_Renesas",
+      "file": "symbols/CPLD_Renesas.json",
+      "device_count": 4
+    },
+    {
+      "name": "CPLD_Xilinx",
+      "file": "symbols/CPLD_Xilinx.json",
+      "device_count": 22
+    },
+    {
+      "name": "CPU",
+      "file": "symbols/CPU.json",
+      "device_count": 7
+    },
+    {
+      "name": "CPU_NXP_6800",
+      "file": "symbols/CPU_NXP_6800.json",
+      "device_count": 12
+    },
+    {
+      "name": "CPU_NXP_68000",
+      "file": "symbols/CPU_NXP_68000.json",
+      "device_count": 6
+    },
+    {
+      "name": "CPU_NXP_IMX",
+      "file": "symbols/CPU_NXP_IMX.json",
+      "device_count": 18
+    },
+    {
+      "name": "CPU_PowerPC",
+      "file": "symbols/CPU_PowerPC.json",
+      "device_count": 1
+    },
+    {
+      "name": "Comparator",
+      "file": "symbols/Comparator.json",
+      "device_count": 61
+    },
+    {
+      "name": "Connector",
+      "file": "symbols/Connector.json",
+      "device_count": 398
+    },
+    {
+      "name": "Connector_Audio",
+      "file": "symbols/Connector_Audio.json",
+      "device_count": 233
+    },
+    {
+      "name": "Connector_Generic",
+      "file": "symbols/Connector_Generic.json",
+      "device_count": 334
+    },
+    {
+      "name": "Connector_Generic_MountingPin",
+      "file": "symbols/Connector_Generic_MountingPin.json",
+      "device_count": 334
+    },
+    {
+      "name": "Connector_Generic_Shielded",
+      "file": "symbols/Connector_Generic_Shielded.json",
+      "device_count": 335
+    },
+    {
+      "name": "Converter_ACDC",
+      "file": "symbols/Converter_ACDC.json",
+      "device_count": 233
+    },
+    {
+      "name": "Converter_DCDC",
+      "file": "symbols/Converter_DCDC.json",
+      "device_count": 1149
+    },
+    {
+      "name": "DSP_AnalogDevices",
+      "file": "symbols/DSP_AnalogDevices.json",
+      "device_count": 5
+    },
+    {
+      "name": "DSP_Freescale",
+      "file": "symbols/DSP_Freescale.json",
+      "device_count": 1
+    },
+    {
+      "name": "DSP_Microchip_DSPIC33",
+      "file": "symbols/DSP_Microchip_DSPIC33.json",
+      "device_count": 19
+    },
+    {
+      "name": "DSP_Motorola",
+      "file": "symbols/DSP_Motorola.json",
+      "device_count": 1
+    },
+    {
+      "name": "DSP_Texas",
+      "file": "symbols/DSP_Texas.json",
+      "device_count": 1
+    },
+    {
+      "name": "Device",
+      "file": "symbols/Device.json",
+      "device_count": 533
+    },
+    {
+      "name": "Diode",
+      "file": "symbols/Diode.json",
+      "device_count": 762
+    },
+    {
+      "name": "Diode_Bridge",
+      "file": "symbols/Diode_Bridge.json",
+      "device_count": 214
+    },
+    {
+      "name": "Diode_Laser",
+      "file": "symbols/Diode_Laser.json",
+      "device_count": 5
+    },
+    {
+      "name": "Display_Character",
+      "file": "symbols/Display_Character.json",
+      "device_count": 130
+    },
+    {
+      "name": "Display_Graphic",
+      "file": "symbols/Display_Graphic.json",
+      "device_count": 39
+    },
+    {
+      "name": "Driver_Display",
+      "file": "symbols/Driver_Display.json",
+      "device_count": 14
+    },
+    {
+      "name": "Driver_FET",
+      "file": "symbols/Driver_FET.json",
+      "device_count": 216
+    },
+    {
+      "name": "Driver_Haptic",
+      "file": "symbols/Driver_Haptic.json",
+      "device_count": 2
+    },
+    {
+      "name": "Driver_LED",
+      "file": "symbols/Driver_LED.json",
+      "device_count": 129
+    },
+    {
+      "name": "Driver_Motor",
+      "file": "symbols/Driver_Motor.json",
+      "device_count": 99
+    },
+    {
+      "name": "Driver_Relay",
+      "file": "symbols/Driver_Relay.json",
+      "device_count": 5
+    },
+    {
+      "name": "Driver_TEC",
+      "file": "symbols/Driver_TEC.json",
+      "device_count": 2
+    },
+    {
+      "name": "FPGA_CologneChip_GateMate",
+      "file": "symbols/FPGA_CologneChip_GateMate.json",
+      "device_count": 1
+    },
+    {
+      "name": "FPGA_Efinix_Trion",
+      "file": "symbols/FPGA_Efinix_Trion.json",
+      "device_count": 1
+    },
+    {
+      "name": "FPGA_Lattice",
+      "file": "symbols/FPGA_Lattice.json",
+      "device_count": 24
+    },
+    {
+      "name": "FPGA_Microsemi",
+      "file": "symbols/FPGA_Microsemi.json",
+      "device_count": 18
+    },
+    {
+      "name": "FPGA_Xilinx",
+      "file": "symbols/FPGA_Xilinx.json",
+      "device_count": 34
+    },
+    {
+      "name": "FPGA_Xilinx_Artix7",
+      "file": "symbols/FPGA_Xilinx_Artix7.json",
+      "device_count": 27
+    },
+    {
+      "name": "FPGA_Xilinx_Kintex7",
+      "file": "symbols/FPGA_Xilinx_Kintex7.json",
+      "device_count": 18
+    },
+    {
+      "name": "FPGA_Xilinx_Spartan6",
+      "file": "symbols/FPGA_Xilinx_Spartan6.json",
+      "device_count": 45
+    },
+    {
+      "name": "FPGA_Xilinx_Virtex5",
+      "file": "symbols/FPGA_Xilinx_Virtex5.json",
+      "device_count": 41
+    },
+    {
+      "name": "FPGA_Xilinx_Virtex6",
+      "file": "symbols/FPGA_Xilinx_Virtex6.json",
+      "device_count": 28
+    },
+    {
+      "name": "FPGA_Xilinx_Virtex7",
+      "file": "symbols/FPGA_Xilinx_Virtex7.json",
+      "device_count": 34
+    },
+    {
+      "name": "Fiber_Optic",
+      "file": "symbols/Fiber_Optic.json",
+      "device_count": 2
+    },
+    {
+      "name": "Filter",
+      "file": "symbols/Filter.json",
+      "device_count": 116
+    },
+    {
+      "name": "GPU",
+      "file": "symbols/GPU.json",
+      "device_count": 3
+    },
+    {
+      "name": "Graphic",
+      "file": "symbols/Graphic.json",
+      "device_count": 30
+    },
+    {
+      "name": "Interface",
+      "file": "symbols/Interface.json",
+      "device_count": 116
+    },
+    {
+      "name": "Interface_CAN_LIN",
+      "file": "symbols/Interface_CAN_LIN.json",
+      "device_count": 97
+    },
+    {
+      "name": "Interface_CurrentLoop",
+      "file": "symbols/Interface_CurrentLoop.json",
+      "device_count": 3
+    },
+    {
+      "name": "Interface_Ethernet",
+      "file": "symbols/Interface_Ethernet.json",
+      "device_count": 36
+    },
+    {
+      "name": "Interface_Expansion",
+      "file": "symbols/Interface_Expansion.json",
+      "device_count": 111
+    },
+    {
+      "name": "Interface_HDMI",
+      "file": "symbols/Interface_HDMI.json",
+      "device_count": 2
+    },
+    {
+      "name": "Interface_HID",
+      "file": "symbols/Interface_HID.json",
+      "device_count": 5
+    },
+    {
+      "name": "Interface_LineDriver",
+      "file": "symbols/Interface_LineDriver.json",
+      "device_count": 16
+    },
+    {
+      "name": "Interface_Optical",
+      "file": "symbols/Interface_Optical.json",
+      "device_count": 43
+    },
+    {
+      "name": "Interface_Telecom",
+      "file": "symbols/Interface_Telecom.json",
+      "device_count": 3
+    },
+    {
+      "name": "Interface_UART",
+      "file": "symbols/Interface_UART.json",
+      "device_count": 168
+    },
+    {
+      "name": "Interface_USB",
+      "file": "symbols/Interface_USB.json",
+      "device_count": 135
+    },
+    {
+      "name": "Isolator",
+      "file": "symbols/Isolator.json",
+      "device_count": 419
+    },
+    {
+      "name": "Isolator_Analog",
+      "file": "symbols/Isolator_Analog.json",
+      "device_count": 18
+    },
+    {
+      "name": "Jumper",
+      "file": "symbols/Jumper.json",
+      "device_count": 11
+    },
+    {
+      "name": "LED",
+      "file": "symbols/LED.json",
+      "device_count": 63
+    },
+    {
+      "name": "Logic_LevelTranslator",
+      "file": "symbols/Logic_LevelTranslator.json",
+      "device_count": 58
+    },
+    {
+      "name": "Logic_Programmable",
+      "file": "symbols/Logic_Programmable.json",
+      "device_count": 11
+    },
+    {
+      "name": "MCU_AnalogDevices",
+      "file": "symbols/MCU_AnalogDevices.json",
+      "device_count": 3
+    },
+    {
+      "name": "MCU_Cypress",
+      "file": "symbols/MCU_Cypress.json",
+      "device_count": 36
+    },
+    {
+      "name": "MCU_Dialog",
+      "file": "symbols/MCU_Dialog.json",
+      "device_count": 2
+    },
+    {
+      "name": "MCU_Espressif",
+      "file": "symbols/MCU_Espressif.json",
+      "device_count": 7
+    },
+    {
+      "name": "MCU_Intel",
+      "file": "symbols/MCU_Intel.json",
+      "device_count": 31
+    },
+    {
+      "name": "MCU_Microchip_8051",
+      "file": "symbols/MCU_Microchip_8051.json",
+      "device_count": 15
+    },
+    {
+      "name": "MCU_Microchip_ATmega",
+      "file": "symbols/MCU_Microchip_ATmega.json",
+      "device_count": 440
+    },
+    {
+      "name": "MCU_Microchip_ATtiny",
+      "file": "symbols/MCU_Microchip_ATtiny.json",
+      "device_count": 223
+    },
+    {
+      "name": "MCU_Microchip_AVR",
+      "file": "symbols/MCU_Microchip_AVR.json",
+      "device_count": 19
+    },
+    {
+      "name": "MCU_Microchip_AVR_Dx",
+      "file": "symbols/MCU_Microchip_AVR_Dx.json",
+      "device_count": 50
+    },
+    {
+      "name": "MCU_Microchip_PIC10",
+      "file": "symbols/MCU_Microchip_PIC10.json",
+      "device_count": 24
+    },
+    {
+      "name": "MCU_Microchip_PIC12",
+      "file": "symbols/MCU_Microchip_PIC12.json",
+      "device_count": 114
+    },
+    {
+      "name": "MCU_Microchip_PIC16",
+      "file": "symbols/MCU_Microchip_PIC16.json",
+      "device_count": 260
+    },
+    {
+      "name": "MCU_Microchip_PIC18",
+      "file": "symbols/MCU_Microchip_PIC18.json",
+      "device_count": 172
+    },
+    {
+      "name": "MCU_Microchip_PIC24",
+      "file": "symbols/MCU_Microchip_PIC24.json",
+      "device_count": 7
+    },
+    {
+      "name": "MCU_Microchip_PIC32",
+      "file": "symbols/MCU_Microchip_PIC32.json",
+      "device_count": 17
+    },
+    {
+      "name": "MCU_Microchip_SAMA",
+      "file": "symbols/MCU_Microchip_SAMA.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_Microchip_SAMD",
+      "file": "symbols/MCU_Microchip_SAMD.json",
+      "device_count": 87
+    },
+    {
+      "name": "MCU_Microchip_SAME",
+      "file": "symbols/MCU_Microchip_SAME.json",
+      "device_count": 16
+    },
+    {
+      "name": "MCU_Microchip_SAML",
+      "file": "symbols/MCU_Microchip_SAML.json",
+      "device_count": 20
+    },
+    {
+      "name": "MCU_Microchip_SAMV",
+      "file": "symbols/MCU_Microchip_SAMV.json",
+      "device_count": 3
+    },
+    {
+      "name": "MCU_Module",
+      "file": "symbols/MCU_Module.json",
+      "device_count": 64
+    },
+    {
+      "name": "MCU_NXP_ColdFire",
+      "file": "symbols/MCU_NXP_ColdFire.json",
+      "device_count": 6
+    },
+    {
+      "name": "MCU_NXP_HC11",
+      "file": "symbols/MCU_NXP_HC11.json",
+      "device_count": 10
+    },
+    {
+      "name": "MCU_NXP_HC12",
+      "file": "symbols/MCU_NXP_HC12.json",
+      "device_count": 2
+    },
+    {
+      "name": "MCU_NXP_HCS12",
+      "file": "symbols/MCU_NXP_HCS12.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_NXP_Kinetis",
+      "file": "symbols/MCU_NXP_Kinetis.json",
+      "device_count": 155
+    },
+    {
+      "name": "MCU_NXP_LPC",
+      "file": "symbols/MCU_NXP_LPC.json",
+      "device_count": 106
+    },
+    {
+      "name": "MCU_NXP_MAC7100",
+      "file": "symbols/MCU_NXP_MAC7100.json",
+      "device_count": 2
+    },
+    {
+      "name": "MCU_NXP_MCore",
+      "file": "symbols/MCU_NXP_MCore.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_NXP_NTAG",
+      "file": "symbols/MCU_NXP_NTAG.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_NXP_S08",
+      "file": "symbols/MCU_NXP_S08.json",
+      "device_count": 189
+    },
+    {
+      "name": "MCU_Nordic",
+      "file": "symbols/MCU_Nordic.json",
+      "device_count": 11
+    },
+    {
+      "name": "MCU_Parallax",
+      "file": "symbols/MCU_Parallax.json",
+      "device_count": 3
+    },
+    {
+      "name": "MCU_Puya",
+      "file": "symbols/MCU_Puya.json",
+      "device_count": 2
+    },
+    {
+      "name": "MCU_RaspberryPi",
+      "file": "symbols/MCU_RaspberryPi.json",
+      "device_count": 5
+    },
+    {
+      "name": "MCU_Renesas_Synergy_S1",
+      "file": "symbols/MCU_Renesas_Synergy_S1.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_STC",
+      "file": "symbols/MCU_STC.json",
+      "device_count": 10
+    },
+    {
+      "name": "MCU_ST_STM32C0",
+      "file": "symbols/MCU_ST_STM32C0.json",
+      "device_count": 57
+    },
+    {
+      "name": "MCU_ST_STM32F0",
+      "file": "symbols/MCU_ST_STM32F0.json",
+      "device_count": 133
+    },
+    {
+      "name": "MCU_ST_STM32F1",
+      "file": "symbols/MCU_ST_STM32F1.json",
+      "device_count": 178
+    },
+    {
+      "name": "MCU_ST_STM32F2",
+      "file": "symbols/MCU_ST_STM32F2.json",
+      "device_count": 62
+    },
+    {
+      "name": "MCU_ST_STM32F3",
+      "file": "symbols/MCU_ST_STM32F3.json",
+      "device_count": 126
+    },
+    {
+      "name": "MCU_ST_STM32F4",
+      "file": "symbols/MCU_ST_STM32F4.json",
+      "device_count": 300
+    },
+    {
+      "name": "MCU_ST_STM32F7",
+      "file": "symbols/MCU_ST_STM32F7.json",
+      "device_count": 156
+    },
+    {
+      "name": "MCU_ST_STM32G0",
+      "file": "symbols/MCU_ST_STM32G0.json",
+      "device_count": 228
+    },
+    {
+      "name": "MCU_ST_STM32G4",
+      "file": "symbols/MCU_ST_STM32G4.json",
+      "device_count": 165
+    },
+    {
+      "name": "MCU_ST_STM32H5",
+      "file": "symbols/MCU_ST_STM32H5.json",
+      "device_count": 73
+    },
+    {
+      "name": "MCU_ST_STM32H7",
+      "file": "symbols/MCU_ST_STM32H7.json",
+      "device_count": 225
+    },
+    {
+      "name": "MCU_ST_STM32L0",
+      "file": "symbols/MCU_ST_STM32L0.json",
+      "device_count": 245
+    },
+    {
+      "name": "MCU_ST_STM32L1",
+      "file": "symbols/MCU_ST_STM32L1.json",
+      "device_count": 158
+    },
+    {
+      "name": "MCU_ST_STM32L4",
+      "file": "symbols/MCU_ST_STM32L4.json",
+      "device_count": 320
+    },
+    {
+      "name": "MCU_ST_STM32L5",
+      "file": "symbols/MCU_ST_STM32L5.json",
+      "device_count": 44
+    },
+    {
+      "name": "MCU_ST_STM32MP1",
+      "file": "symbols/MCU_ST_STM32MP1.json",
+      "device_count": 84
+    },
+    {
+      "name": "MCU_ST_STM32U0",
+      "file": "symbols/MCU_ST_STM32U0.json",
+      "device_count": 48
+    },
+    {
+      "name": "MCU_ST_STM32U5",
+      "file": "symbols/MCU_ST_STM32U5.json",
+      "device_count": 162
+    },
+    {
+      "name": "MCU_ST_STM32WB",
+      "file": "symbols/MCU_ST_STM32WB.json",
+      "device_count": 40
+    },
+    {
+      "name": "MCU_ST_STM32WL",
+      "file": "symbols/MCU_ST_STM32WL.json",
+      "device_count": 16
+    },
+    {
+      "name": "MCU_ST_STM8",
+      "file": "symbols/MCU_ST_STM8.json",
+      "device_count": 36
+    },
+    {
+      "name": "MCU_SiFive",
+      "file": "symbols/MCU_SiFive.json",
+      "device_count": 3
+    },
+    {
+      "name": "MCU_SiliconLabs",
+      "file": "symbols/MCU_SiliconLabs.json",
+      "device_count": 48
+    },
+    {
+      "name": "MCU_Texas",
+      "file": "symbols/MCU_Texas.json",
+      "device_count": 21
+    },
+    {
+      "name": "MCU_Texas_MSP430",
+      "file": "symbols/MCU_Texas_MSP430.json",
+      "device_count": 361
+    },
+    {
+      "name": "MCU_Texas_SimpleLink",
+      "file": "symbols/MCU_Texas_SimpleLink.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_Trident",
+      "file": "symbols/MCU_Trident.json",
+      "device_count": 1
+    },
+    {
+      "name": "MCU_WCH_RiscV",
+      "file": "symbols/MCU_WCH_RiscV.json",
+      "device_count": 15
+    },
+    {
+      "name": "Mechanical",
+      "file": "symbols/Mechanical.json",
+      "device_count": 13
+    },
+    {
+      "name": "Memory_EEPROM",
+      "file": "symbols/Memory_EEPROM.json",
+      "device_count": 100
+    },
+    {
+      "name": "Memory_EPROM",
+      "file": "symbols/Memory_EPROM.json",
+      "device_count": 13
+    },
+    {
+      "name": "Memory_Flash",
+      "file": "symbols/Memory_Flash.json",
+      "device_count": 59
+    },
+    {
+      "name": "Memory_NVRAM",
+      "file": "symbols/Memory_NVRAM.json",
+      "device_count": 32
+    },
+    {
+      "name": "Memory_RAM",
+      "file": "symbols/Memory_RAM.json",
+      "device_count": 99
+    },
+    {
+      "name": "Memory_ROM",
+      "file": "symbols/Memory_ROM.json",
+      "device_count": 2
+    },
+    {
+      "name": "Memory_UniqueID",
+      "file": "symbols/Memory_UniqueID.json",
+      "device_count": 2
+    },
+    {
+      "name": "Motor",
+      "file": "symbols/Motor.json",
+      "device_count": 23
+    },
+    {
+      "name": "Oscillator",
+      "file": "symbols/Oscillator.json",
+      "device_count": 121
+    },
+    {
+      "name": "Potentiometer_Digital",
+      "file": "symbols/Potentiometer_Digital.json",
+      "device_count": 64
+    },
+    {
+      "name": "Power_Management",
+      "file": "symbols/Power_Management.json",
+      "device_count": 280
+    },
+    {
+      "name": "Power_Protection",
+      "file": "symbols/Power_Protection.json",
+      "device_count": 142
+    },
+    {
+      "name": "Power_Supervisor",
+      "file": "symbols/Power_Supervisor.json",
+      "device_count": 93
+    },
+    {
+      "name": "RF",
+      "file": "symbols/RF.json",
+      "device_count": 65
+    },
+    {
+      "name": "RF_AM_FM",
+      "file": "symbols/RF_AM_FM.json",
+      "device_count": 13
+    },
+    {
+      "name": "RF_Amplifier",
+      "file": "symbols/RF_Amplifier.json",
+      "device_count": 77
+    },
+    {
+      "name": "RF_Bluetooth",
+      "file": "symbols/RF_Bluetooth.json",
+      "device_count": 14
+    },
+    {
+      "name": "RF_Filter",
+      "file": "symbols/RF_Filter.json",
+      "device_count": 201
+    },
+    {
+      "name": "RF_GPS",
+      "file": "symbols/RF_GPS.json",
+      "device_count": 26
+    },
+    {
+      "name": "RF_GSM",
+      "file": "symbols/RF_GSM.json",
+      "device_count": 22
+    },
+    {
+      "name": "RF_Mixer",
+      "file": "symbols/RF_Mixer.json",
+      "device_count": 8
+    },
+    {
+      "name": "RF_Module",
+      "file": "symbols/RF_Module.json",
+      "device_count": 84
+    },
+    {
+      "name": "RF_NFC",
+      "file": "symbols/RF_NFC.json",
+      "device_count": 9
+    },
+    {
+      "name": "RF_RFID",
+      "file": "symbols/RF_RFID.json",
+      "device_count": 2
+    },
+    {
+      "name": "RF_Switch",
+      "file": "symbols/RF_Switch.json",
+      "device_count": 30
+    },
+    {
+      "name": "RF_WiFi",
+      "file": "symbols/RF_WiFi.json",
+      "device_count": 2
+    },
+    {
+      "name": "RF_ZigBee",
+      "file": "symbols/RF_ZigBee.json",
+      "device_count": 8
+    },
+    {
+      "name": "Reference_Current",
+      "file": "symbols/Reference_Current.json",
+      "device_count": 12
+    },
+    {
+      "name": "Reference_Voltage",
+      "file": "symbols/Reference_Voltage.json",
+      "device_count": 343
+    },
+    {
+      "name": "Regulator_Controller",
+      "file": "symbols/Regulator_Controller.json",
+      "device_count": 154
+    },
+    {
+      "name": "Regulator_Current",
+      "file": "symbols/Regulator_Current.json",
+      "device_count": 2
+    },
+    {
+      "name": "Regulator_Linear",
+      "file": "symbols/Regulator_Linear.json",
+      "device_count": 1619
+    },
+    {
+      "name": "Regulator_SwitchedCapacitor",
+      "file": "symbols/Regulator_SwitchedCapacitor.json",
+      "device_count": 38
+    },
+    {
+      "name": "Regulator_Switching",
+      "file": "symbols/Regulator_Switching.json",
+      "device_count": 1170
+    },
+    {
+      "name": "Relay",
+      "file": "symbols/Relay.json",
+      "device_count": 257
+    },
+    {
+      "name": "Relay_SolidState",
+      "file": "symbols/Relay_SolidState.json",
+      "device_count": 106
+    },
+    {
+      "name": "Security",
+      "file": "symbols/Security.json",
+      "device_count": 7
+    },
+    {
+      "name": "Sensor",
+      "file": "symbols/Sensor.json",
+      "device_count": 17
+    },
+    {
+      "name": "Sensor_Audio",
+      "file": "symbols/Sensor_Audio.json",
+      "device_count": 8
+    },
+    {
+      "name": "Sensor_Current",
+      "file": "symbols/Sensor_Current.json",
+      "device_count": 261
+    },
+    {
+      "name": "Sensor_Distance",
+      "file": "symbols/Sensor_Distance.json",
+      "device_count": 5
+    },
+    {
+      "name": "Sensor_Energy",
+      "file": "symbols/Sensor_Energy.json",
+      "device_count": 43
+    },
+    {
+      "name": "Sensor_Gas",
+      "file": "symbols/Sensor_Gas.json",
+      "device_count": 15
+    },
+    {
+      "name": "Sensor_Humidity",
+      "file": "symbols/Sensor_Humidity.json",
+      "device_count": 15
+    },
+    {
+      "name": "Sensor_Magnetic",
+      "file": "symbols/Sensor_Magnetic.json",
+      "device_count": 72
+    },
+    {
+      "name": "Sensor_Motion",
+      "file": "symbols/Sensor_Motion.json",
+      "device_count": 35
+    },
+    {
+      "name": "Sensor_Optical",
+      "file": "symbols/Sensor_Optical.json",
+      "device_count": 75
+    },
+    {
+      "name": "Sensor_Pressure",
+      "file": "symbols/Sensor_Pressure.json",
+      "device_count": 24
+    },
+    {
+      "name": "Sensor_Proximity",
+      "file": "symbols/Sensor_Proximity.json",
+      "device_count": 35
+    },
+    {
+      "name": "Sensor_Temperature",
+      "file": "symbols/Sensor_Temperature.json",
+      "device_count": 119
+    },
+    {
+      "name": "Sensor_Touch",
+      "file": "symbols/Sensor_Touch.json",
+      "device_count": 24
+    },
+    {
+      "name": "Sensor_Voltage",
+      "file": "symbols/Sensor_Voltage.json",
+      "device_count": 1
+    },
+    {
+      "name": "Simulation_SPICE",
+      "file": "symbols/Simulation_SPICE.json",
+      "device_count": 41
+    },
+    {
+      "name": "Switch",
+      "file": "symbols/Switch.json",
+      "device_count": 78
+    },
+    {
+      "name": "Timer",
+      "file": "symbols/Timer.json",
+      "device_count": 67
+    },
+    {
+      "name": "Timer_PLL",
+      "file": "symbols/Timer_PLL.json",
+      "device_count": 21
+    },
+    {
+      "name": "Timer_RTC",
+      "file": "symbols/Timer_RTC.json",
+      "device_count": 48
+    },
+    {
+      "name": "Transformer",
+      "file": "symbols/Transformer.json",
+      "device_count": 117
+    },
+    {
+      "name": "Transistor_Array",
+      "file": "symbols/Transistor_Array.json",
+      "device_count": 26
+    },
+    {
+      "name": "Transistor_BJT",
+      "file": "symbols/Transistor_BJT.json",
+      "device_count": 390
+    },
+    {
+      "name": "Transistor_FET",
+      "file": "symbols/Transistor_FET.json",
+      "device_count": 604
+    },
+    {
+      "name": "Transistor_FET_Other",
+      "file": "symbols/Transistor_FET_Other.json",
+      "device_count": 16
+    },
+    {
+      "name": "Transistor_IGBT",
+      "file": "symbols/Transistor_IGBT.json",
+      "device_count": 2
+    },
+    {
+      "name": "Transistor_Power_Module",
+      "file": "symbols/Transistor_Power_Module.json",
+      "device_count": 35
+    },
+    {
+      "name": "Triac_Thyristor",
+      "file": "symbols/Triac_Thyristor.json",
+      "device_count": 52
+    },
+    {
+      "name": "Valve",
+      "file": "symbols/Valve.json",
+      "device_count": 24
+    },
+    {
+      "name": "Video",
+      "file": "symbols/Video.json",
+      "device_count": 38
+    },
+    {
+      "name": "power",
+      "file": "symbols/power.json",
+      "device_count": 101
+    },
+    {
+      "name": "Audio_Module.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Audio_Module.pretty.json"
+    },
+    {
+      "name": "Battery.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Battery.pretty.json"
+    },
+    {
+      "name": "Button_Switch_Keyboard.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Button_Switch_Keyboard.pretty.json"
+    },
+    {
+      "name": "Button_Switch_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Button_Switch_SMD.pretty.json"
+    },
+    {
+      "name": "Button_Switch_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Button_Switch_THT.pretty.json"
+    },
+    {
+      "name": "Buzzer_Beeper.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Buzzer_Beeper.pretty.json"
+    },
+    {
+      "name": "Calibration_Scale.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Calibration_Scale.pretty.json"
+    },
+    {
+      "name": "Capacitor_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Capacitor_SMD.pretty.json"
+    },
+    {
+      "name": "Capacitor_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Capacitor_THT.pretty.json"
+    },
+    {
+      "name": "Capacitor_Tantalum_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Capacitor_Tantalum_SMD.pretty.json"
+    },
+    {
+      "name": "Connector.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector.pretty.json"
+    },
+    {
+      "name": "Connector_AMASS.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_AMASS.pretty.json"
+    },
+    {
+      "name": "Connector_Amphenol.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Amphenol.pretty.json"
+    },
+    {
+      "name": "Connector_Audio.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Audio.pretty.json"
+    },
+    {
+      "name": "Connector_BarrelJack.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_BarrelJack.pretty.json"
+    },
+    {
+      "name": "Connector_Card.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Card.pretty.json"
+    },
+    {
+      "name": "Connector_Coaxial.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Coaxial.pretty.json"
+    },
+    {
+      "name": "Connector_DIN.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_DIN.pretty.json"
+    },
+    {
+      "name": "Connector_Dsub.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Dsub.pretty.json"
+    },
+    {
+      "name": "Connector_FFC-FPC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_FFC-FPC.pretty.json"
+    },
+    {
+      "name": "Connector_Harting.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Harting.pretty.json"
+    },
+    {
+      "name": "Connector_Harwin.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Harwin.pretty.json"
+    },
+    {
+      "name": "Connector_Hirose.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Hirose.pretty.json"
+    },
+    {
+      "name": "Connector_Hirose_DF40.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Hirose_DF40.pretty.json"
+    },
+    {
+      "name": "Connector_Hirose_FX8.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Hirose_FX8.pretty.json"
+    },
+    {
+      "name": "Connector_IDC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_IDC.pretty.json"
+    },
+    {
+      "name": "Connector_JAE.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_JAE.pretty.json"
+    },
+    {
+      "name": "Connector_JAE_WP7B.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_JAE_WP7B.pretty.json"
+    },
+    {
+      "name": "Connector_JST.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_JST.pretty.json"
+    },
+    {
+      "name": "Connector_Molex.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Molex.pretty.json"
+    },
+    {
+      "name": "Connector_Molex_Milligrid.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Molex_Milligrid.pretty.json"
+    },
+    {
+      "name": "Connector_PCBEdge.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PCBEdge.pretty.json"
+    },
+    {
+      "name": "Connector_Phoenix_GMSTB.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Phoenix_GMSTB.pretty.json"
+    },
+    {
+      "name": "Connector_Phoenix_MC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Phoenix_MC.pretty.json"
+    },
+    {
+      "name": "Connector_Phoenix_MC_HighVoltage.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Phoenix_MC_HighVoltage.pretty.json"
+    },
+    {
+      "name": "Connector_Phoenix_MSTB.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Phoenix_MSTB.pretty.json"
+    },
+    {
+      "name": "Connector_Phoenix_SPT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Phoenix_SPT.pretty.json"
+    },
+    {
+      "name": "Connector_Pin.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Pin.pretty.json"
+    },
+    {
+      "name": "Connector_PinHeader_1.00mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinHeader_1.00mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinHeader_1.27mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinHeader_1.27mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinHeader_2.00mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinHeader_2.00mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinHeader_2.54mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinHeader_2.54mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinSocket_1.00mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinSocket_1.00mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinSocket_1.27mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinSocket_1.27mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinSocket_2.00mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinSocket_2.00mm.pretty.json"
+    },
+    {
+      "name": "Connector_PinSocket_2.54mm.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_PinSocket_2.54mm.pretty.json"
+    },
+    {
+      "name": "Connector_RJ.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_RJ.pretty.json"
+    },
+    {
+      "name": "Connector_SATA_SAS.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_SATA_SAS.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_EdgeRate.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_EdgeRate.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_FSI.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_FSI.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_HLE_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_HLE_SMD.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_HLE_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_HLE_THT.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_HPM_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_HPM_THT.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_HSEC8.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_HSEC8.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_LTMM.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_LTMM.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_MicroMate.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_MicroMate.pretty.json"
+    },
+    {
+      "name": "Connector_Samtec_MicroPower.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Samtec_MicroPower.pretty.json"
+    },
+    {
+      "name": "Connector_Stocko.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Stocko.pretty.json"
+    },
+    {
+      "name": "Connector_TE-Connectivity.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_TE-Connectivity.pretty.json"
+    },
+    {
+      "name": "Connector_USB.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_USB.pretty.json"
+    },
+    {
+      "name": "Connector_Video.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Video.pretty.json"
+    },
+    {
+      "name": "Connector_Wago.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Wago.pretty.json"
+    },
+    {
+      "name": "Connector_Wire.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Wire.pretty.json"
+    },
+    {
+      "name": "Connector_Wuerth.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Wuerth.pretty.json"
+    },
+    {
+      "name": "Connector_Zhaoxing.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Connector_Zhaoxing.pretty.json"
+    },
+    {
+      "name": "Converter_ACDC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Converter_ACDC.pretty.json"
+    },
+    {
+      "name": "Converter_DCDC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Converter_DCDC.pretty.json"
+    },
+    {
+      "name": "Crystal.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Crystal.pretty.json"
+    },
+    {
+      "name": "Diode_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Diode_SMD.pretty.json"
+    },
+    {
+      "name": "Diode_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Diode_THT.pretty.json"
+    },
+    {
+      "name": "Display.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Display.pretty.json"
+    },
+    {
+      "name": "Display_7Segment.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Display_7Segment.pretty.json"
+    },
+    {
+      "name": "Ferrite_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Ferrite_THT.pretty.json"
+    },
+    {
+      "name": "Fiducial.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Fiducial.pretty.json"
+    },
+    {
+      "name": "Filter.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Filter.pretty.json"
+    },
+    {
+      "name": "Fuse.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Fuse.pretty.json"
+    },
+    {
+      "name": "Heatsink.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Heatsink.pretty.json"
+    },
+    {
+      "name": "Inductor_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Inductor_SMD.pretty.json"
+    },
+    {
+      "name": "Inductor_SMD_Wurth.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Inductor_SMD_Wurth.pretty.json"
+    },
+    {
+      "name": "Inductor_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Inductor_THT.pretty.json"
+    },
+    {
+      "name": "Inductor_THT_Wurth.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Inductor_THT_Wurth.pretty.json"
+    },
+    {
+      "name": "Jumper.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Jumper.pretty.json"
+    },
+    {
+      "name": "LED_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/LED_SMD.pretty.json"
+    },
+    {
+      "name": "LED_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/LED_THT.pretty.json"
+    },
+    {
+      "name": "Module.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Module.pretty.json"
+    },
+    {
+      "name": "Motors.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Motors.pretty.json"
+    },
+    {
+      "name": "MountingEquipment.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/MountingEquipment.pretty.json"
+    },
+    {
+      "name": "MountingHole.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/MountingHole.pretty.json"
+    },
+    {
+      "name": "Mounting_Wuerth.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Mounting_Wuerth.pretty.json"
+    },
+    {
+      "name": "NetTie.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/NetTie.pretty.json"
+    },
+    {
+      "name": "OptoDevice.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/OptoDevice.pretty.json"
+    },
+    {
+      "name": "Oscillator.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Oscillator.pretty.json"
+    },
+    {
+      "name": "Package_BGA.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_BGA.pretty.json"
+    },
+    {
+      "name": "Package_CSP.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_CSP.pretty.json"
+    },
+    {
+      "name": "Package_DFN_QFN.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_DFN_QFN.pretty.json"
+    },
+    {
+      "name": "Package_DIP.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_DIP.pretty.json"
+    },
+    {
+      "name": "Package_DirectFET.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_DirectFET.pretty.json"
+    },
+    {
+      "name": "Package_LCC.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_LCC.pretty.json"
+    },
+    {
+      "name": "Package_LGA.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_LGA.pretty.json"
+    },
+    {
+      "name": "Package_QFP.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_QFP.pretty.json"
+    },
+    {
+      "name": "Package_SIP.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_SIP.pretty.json"
+    },
+    {
+      "name": "Package_SO.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_SO.pretty.json"
+    },
+    {
+      "name": "Package_SON.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_SON.pretty.json"
+    },
+    {
+      "name": "Package_SO_J-Lead.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_SO_J-Lead.pretty.json"
+    },
+    {
+      "name": "Package_TO_SOT_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_TO_SOT_SMD.pretty.json"
+    },
+    {
+      "name": "Package_TO_SOT_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Package_TO_SOT_THT.pretty.json"
+    },
+    {
+      "name": "Panelization.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Panelization.pretty.json"
+    },
+    {
+      "name": "Potentiometer_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Potentiometer_SMD.pretty.json"
+    },
+    {
+      "name": "Potentiometer_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Potentiometer_THT.pretty.json"
+    },
+    {
+      "name": "RF.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF.pretty.json"
+    },
+    {
+      "name": "RF_Antenna.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_Antenna.pretty.json"
+    },
+    {
+      "name": "RF_Converter.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_Converter.pretty.json"
+    },
+    {
+      "name": "RF_GPS.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_GPS.pretty.json"
+    },
+    {
+      "name": "RF_GSM.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_GSM.pretty.json"
+    },
+    {
+      "name": "RF_Mini-Circuits.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_Mini-Circuits.pretty.json"
+    },
+    {
+      "name": "RF_Module.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_Module.pretty.json"
+    },
+    {
+      "name": "RF_Shielding.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_Shielding.pretty.json"
+    },
+    {
+      "name": "RF_WiFi.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/RF_WiFi.pretty.json"
+    },
+    {
+      "name": "Relay_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Relay_SMD.pretty.json"
+    },
+    {
+      "name": "Relay_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Relay_THT.pretty.json"
+    },
+    {
+      "name": "Resistor_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Resistor_SMD.pretty.json"
+    },
+    {
+      "name": "Resistor_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Resistor_THT.pretty.json"
+    },
+    {
+      "name": "Rotary_Encoder.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Rotary_Encoder.pretty.json"
+    },
+    {
+      "name": "Sensor.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor.pretty.json"
+    },
+    {
+      "name": "Sensor_Audio.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Audio.pretty.json"
+    },
+    {
+      "name": "Sensor_Current.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Current.pretty.json"
+    },
+    {
+      "name": "Sensor_Distance.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Distance.pretty.json"
+    },
+    {
+      "name": "Sensor_Humidity.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Humidity.pretty.json"
+    },
+    {
+      "name": "Sensor_Motion.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Motion.pretty.json"
+    },
+    {
+      "name": "Sensor_Pressure.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Pressure.pretty.json"
+    },
+    {
+      "name": "Sensor_Voltage.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Sensor_Voltage.pretty.json"
+    },
+    {
+      "name": "Socket.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Socket.pretty.json"
+    },
+    {
+      "name": "Symbol.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Symbol.pretty.json"
+    },
+    {
+      "name": "TerminalBlock.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_4Ucon.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_4Ucon.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Altech.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Altech.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_CUI.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_CUI.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Degson.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Degson.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Dinkle.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Dinkle.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_MetzConnect.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_MetzConnect.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Ningbo-Kagnex.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Ningbo-Kagnex.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Philmore.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Philmore.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Phoenix.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Phoenix.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_RND.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_RND.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_TE-Connectivity.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_TE-Connectivity.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_WAGO.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_WAGO.pretty.json"
+    },
+    {
+      "name": "TerminalBlock_Wuerth.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TerminalBlock_Wuerth.pretty.json"
+    },
+    {
+      "name": "TestPoint.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/TestPoint.pretty.json"
+    },
+    {
+      "name": "Transformer_SMD.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Transformer_SMD.pretty.json"
+    },
+    {
+      "name": "Transformer_THT.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Transformer_THT.pretty.json"
+    },
+    {
+      "name": "Transistor_Power.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Transistor_Power.pretty.json"
+    },
+    {
+      "name": "Transistor_Power_Module.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Transistor_Power_Module.pretty.json"
+    },
+    {
+      "name": "Valve.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Valve.pretty.json"
+    },
+    {
+      "name": "Varistor.pretty",
+      "file": "footprints/no-devices.json",
+      "device_count": 0,
+      "package_file": "footprints/Varistor.pretty.json"
+    }
+  ]
+}
