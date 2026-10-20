@@ -13,7 +13,7 @@ change the converter or its mapping table in the Protasena repository and regene
 
 | Path | What |
 |---|---|
-| `pack/index.json` | Pack index: one entry per library (format `protasena-library`, version 1) |
+| `pack/index.json` | Pack index: one entry per library (format `protasena-library`, version 2) |
 | `pack/symbols/<Library>.json` | Devices converted from one KiCad symbol library (`Library.kicad_sym`) |
 | `pack/footprints/<Library>.pretty.json` | Packages converted from one KiCad footprint library (`Library.pretty`) |
 | `report.json` | The converter's report for this pack: counts, renames, missing links, approximations |
@@ -27,7 +27,8 @@ From KiCad libraries 9.0.9.1 (numbers from `report.json`): 223 symbol libraries 
 symbols, 27 973 units, 804 008 pins). 155 footprint libraries with 15 415 footprints became
 15 415 packages (385 640 pads). 20 388 devices have at least one package (73 675 links in all).
 There were no conversion failures, and the pack loads with Protasena's validating loader without
-a single issue. About 300 MB uncompressed; the largest file is under 10 MB.
+a single issue. 1 344 910 pin alternate functions are kept. About 360 MB uncompressed; the largest
+file is under 17 MB.
 
 ## Using it with Protasena
 
@@ -35,7 +36,8 @@ a single issue. About 300 MB uncompressed; the largest file is under 10 MB.
     export PROTASENA_LIBRARY_DIR=$PWD/Protasena-library/pack
 
 Protasena reads the pack from `PROTASENA_LIBRARY_DIR`; without it Protasena only has its small
-built-in set of generic parts.
+built-in set of generic parts. The pack is format version 2 (it adds pin alternate functions);
+Protasena reads it from commit `e1cfb82` on (older builds read only version 1).
 
 ## How it was generated
 
@@ -46,12 +48,12 @@ Upstream, pinned to the tag **9.0.9.1** of both repositories:
 | <https://gitlab.com/kicad/libraries/kicad-symbols> | 9.0.9.1 | `ad36cd14bcd1b1cd0484f629ccdd3481366f74f3` |
 | <https://gitlab.com/kicad/libraries/kicad-footprints> | 9.0.9.1 | `2b941bf1d97862be429793b46fd52a5add09a2fc` |
 
-Converter: `protasena-libconv` from Protasena commit `b231da231a5e878d26df0fcf10d5fb8ab15cbdcc`
-(branch `m1b-followups`), with its mapping table `apps/protasena-libconv/data/map.toml`:
+Converter: `protasena-libconv` from Protasena commit `e1cfb8228d4486a6b86b1bee81ae70e2754125ec`
+(branch `m1c-library`), with its mapping table `apps/protasena-libconv/data/map.toml`:
 
     git clone --branch 9.0.9.1 --depth 1 https://gitlab.com/kicad/libraries/kicad-symbols
     git clone --branch 9.0.9.1 --depth 1 https://gitlab.com/kicad/libraries/kicad-footprints
-    git clone https://github.com/KaanAlper/Protasena && git -C Protasena checkout b231da231a5e878d26df0fcf10d5fb8ab15cbdcc
+    git clone https://github.com/KaanAlper/Protasena && git -C Protasena checkout e1cfb8228d4486a6b86b1bee81ae70e2754125ec
     cargo run --release --manifest-path Protasena/Cargo.toml -p protasena-libconv -- \
         --symbols kicad-symbols --footprints kicad-footprints \
         --map Protasena/apps/protasena-libconv/data/map.toml \
@@ -85,7 +87,8 @@ The libraries were adapted, not just copied. In short:
   op-amps DIP); else the `Footprint` field's footprint; else the first linked through-hole
   footprint; else the first linked footprint.
 - **Approximations** (counted in `report.json` under `notes`): a pin's graphic style (inverted,
-  clock, …) is drawn as body graphics; alternate pin functions are not carried over; pins or
+  clock, …) is drawn as body graphics; alternate pin functions are kept with their names and
+  electrical types, but not their own graphic styles; pins or
   pads that share a number are kept as `N`, `N#2`, `N#3`, … (all on pad `N`); trapezoid pads
   become rectangles; custom pads become their anchor pad plus the outline drawn on copper;
   slotted drills keep their smaller size; zones, 3D model references and a few unusual tokens

@@ -1,6 +1,6 @@
 {
   "format": "protasena-library",
-  "version": 1,
+  "version": 2,
   "libraries": [
     {
       "name": "4xxx",

@@ -20,7 +20,7 @@
     "map_default_links": 25,
     "filter_links": 55808,
     "filter_capped_devices": 177,
-    "alternates_dropped": 1344910,
+    "pin_alternates": 1344910,
     "kicad_unknown_tokens": 512
   },
   "unmapped_libraries": [],
@@ -826,7 +826,8 @@
     "footprint zones skipped": 473,
     "oval drills (smaller size kept)": 431,
     "pad number repeated (renamed N#k)": 42299,
-    "pin alternates dropped (primary function kept)": 1344910,
+    "pin alternate graphic styles dropped": 138,
+    "pin alternates kept": 1344910,
     "pin number repeated in a unit (renamed N#k)": 14,
     "pin style marks drawn": 2460,
     "pin type free → unspecified": 32,
