@@ -78,8 +78,8 @@ The libraries were adapted, not just copied. In short:
   named `NAME_LIBRARY` (also listed under `renamed`).
 - **Packages.** A device links the package the mapping table names for it (if any), the
   footprint in its `Footprint` field, and up to 64 footprints that match its footprint filters
-  and have exactly its pin numbers as pads. Footprint names are used as package names (they are unique across KiCad's libraries).
-  The default package is, in this order: a conventional through-hole package the mapping table
+  and have exactly its pin numbers as pads. Footprint names are used as package names (they
+  are unique across KiCad's libraries). The default package is, in this order: a conventional through-hole package the mapping table
   names for common parts (`RES` an axial DIN0207 resistor, `CAP` a 5 mm disc, `CAP-ELEC` a 5 mm
   radial, `DIODE` DO-41, `LED` 5 mm, `NPN`/`PNP` TO-92 wired E-B-C, `74LS00`, `4001` and common
   op-amps DIP); else the `Footprint` field's footprint; else the first linked through-hole
