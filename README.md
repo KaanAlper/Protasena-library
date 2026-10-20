@@ -25,7 +25,7 @@ Device and package files hold one item per line, so a regenerated pack diffs lin
 From KiCad libraries 9.0.9.1 (numbers from `report.json`): 223 symbol libraries with
 22 583 symbols (12 127 of them derived with `extends`) became 22 583 devices (102 power
 symbols, 27 973 units, 804 008 pins). 155 footprint libraries with 15 415 footprints became
-15 415 packages (385 640 pads). 20 382 devices have at least one package (73 661 links in all).
+15 415 packages (385 640 pads). 20 388 devices have at least one package (73 675 links in all).
 There were no conversion failures, and the pack loads with Protasena's validating loader without
 a single issue. About 300 MB uncompressed; the largest file is under 10 MB.
 
@@ -46,12 +46,12 @@ Upstream, pinned to the tag **9.0.9.1** of both repositories:
 | <https://gitlab.com/kicad/libraries/kicad-symbols> | 9.0.9.1 | `ad36cd14bcd1b1cd0484f629ccdd3481366f74f3` |
 | <https://gitlab.com/kicad/libraries/kicad-footprints> | 9.0.9.1 | `2b941bf1d97862be429793b46fd52a5add09a2fc` |
 
-Converter: `protasena-libconv` from Protasena commit `4e5318a756aed85c78410d6a4ee407ac793ce170`
-(branch `m1-libconv`), with its mapping table `apps/protasena-libconv/data/map.toml`:
+Converter: `protasena-libconv` from Protasena commit `b231da231a5e878d26df0fcf10d5fb8ab15cbdcc`
+(branch `m1b-followups`), with its mapping table `apps/protasena-libconv/data/map.toml`:
 
     git clone --branch 9.0.9.1 --depth 1 https://gitlab.com/kicad/libraries/kicad-symbols
     git clone --branch 9.0.9.1 --depth 1 https://gitlab.com/kicad/libraries/kicad-footprints
-    git clone https://github.com/KaanAlper/Protasena && git -C Protasena checkout 4e5318a756aed85c78410d6a4ee407ac793ce170
+    git clone https://github.com/KaanAlper/Protasena && git -C Protasena checkout b231da231a5e878d26df0fcf10d5fb8ab15cbdcc
     cargo run --release --manifest-path Protasena/Cargo.toml -p protasena-libconv -- \
         --symbols kicad-symbols --footprints kicad-footprints \
         --map Protasena/apps/protasena-libconv/data/map.toml \
@@ -76,9 +76,14 @@ The libraries were adapted, not just copied. In short:
   `CAP`, `power:GND` is `GROUND`, …; listed in `report.json` under `renamed`). Device names are
   unique across the pack: when two libraries hold a symbol of the same name, the second one is
   named `NAME_LIBRARY` (also listed under `renamed`).
-- **Packages.** A device links the footprint in its `Footprint` field (its default package),
-  plus up to 64 footprints that match its footprint filters and have exactly its pin numbers as
-  pads. Footprint names are used as package names (they are unique across KiCad's libraries).
+- **Packages.** A device links the package the mapping table names for it (if any), the
+  footprint in its `Footprint` field, and up to 64 footprints that match its footprint filters
+  and have exactly its pin numbers as pads. Footprint names are used as package names (they are unique across KiCad's libraries).
+  The default package is, in this order: a conventional through-hole package the mapping table
+  names for common parts (`RES` an axial DIN0207 resistor, `CAP` a 5 mm disc, `CAP-ELEC` a 5 mm
+  radial, `DIODE` DO-41, `LED` 5 mm, `NPN`/`PNP` TO-92 wired E-B-C, `74LS00`, `4001` and common
+  op-amps DIP); else the `Footprint` field's footprint; else the first linked through-hole
+  footprint; else the first linked footprint.
 - **Approximations** (counted in `report.json` under `notes`): a pin's graphic style (inverted,
   clock, …) is drawn as body graphics; alternate pin functions are not carried over; pins or
   pads that share a number are kept as `N`, `N#2`, `N#3`, … (all on pad `N`); trapezoid pads
